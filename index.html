@@ -5,8 +5,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Shoes</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
     </head>
     <body>
-        
+        <!-- HEADER DA FARE CON FIXED Z-INDEX E BG TRASPARENT-->
+        <header>
+            <div>
+                <ul class="flex">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+        </header>
+        <!-- MAIN UTILIZZARE ABSOLUTE E TRANSFORM TRANSLATE PER CENTRARE -->
+        <main>
+            <div class="container relative red">
+                <img src="./img/01.png" alt="Shoes" class="absolute t-t" id="1">
+                <span class="absolute t-t">Il nostro modello di punta</span>
+            </div>
+            <div class="container relative green">
+                <img src="./img/02.png" alt="Shoes" class="absolute t-t" id="2">
+                <span class="absolute t-t">Il nostro modello di punta</span>
+            </div>
+            <div class="container relative yellow">
+                <img src="./img/03.png" alt="Shoes" class="absolute t-t" id="3">
+                <span class="absolute t-t">Il nostro modello di punta</span>
+            </div>
+        </main>
     </body>
 </html>
