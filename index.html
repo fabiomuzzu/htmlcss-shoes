@@ -10,33 +10,51 @@
         <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
     </head>
     <body>
-        <!-- HEADER DA FARE CON FIXED Z-INDEX E BG TRASPARENT-->
+        <!-- HEADER -->
         <header>
             <div class="header-container">
                 <div class="row">
                     <div class="menu">
                         <ul>
-                            <li>1</li>
-                            <li>2</li>
-                            <li>3</li>
+                            <li><a href="#section1">1</a></li>
+                            <li><a href="#section2">2</a></li>
+                            <li><a href="#section3">3</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- MAIN UTILIZZARE ABSOLUTE E TRANSFORM TRANSLATE PER CENTRARE -->
+        <!-- MAIN -->
         <main>
-            <div class="container relative red">
-                <img src="./img/01.png" alt="Shoes" class="absolute t-t" id="1">
-                <span class="absolute t-t">Il nostro modello di punta</span>
+            <div class="container relative red" id="section1">
+                <div class="absolute t-t size">
+                    <p>
+                        <img src="./img/01.png" alt="Shoes">
+                    </p>
+                    <p>
+                        <span>Il nostro modello di punta</span>
+                    </p>
+                </div>
             </div>
-            <div class="container relative green">
-                <img src="./img/02.png" alt="Shoes" class="absolute t-t" id="2">
-                <span class="absolute t-t">Il nostro modello di punta</span>
+            <div class="container relative green" id="section2">
+                <div class="absolute t-t size">
+                    <p>
+                        <img src="./img/02.png" alt="Shoes">
+                    </p>
+                    <p>
+                        <span>Il nostro modello di punta</span>
+                    </p>
+                </div>
             </div>
-            <div class="container relative yellow">
-                <img src="./img/03.png" alt="Shoes" class="absolute t-t" id="3">
-                <span class="absolute t-t">Il nostro modello di punta</span>
+            <div class="container relative yellow" id="section3">
+                <div class="absolute t-t size">
+                    <p>
+                        <img src="./img/03.png" alt="Shoes">
+                    </p>
+                    <p>
+                        <span>Il nostro modello di punta</span>
+                    </p>
+                </div>
             </div>
         </main>
     </body>
